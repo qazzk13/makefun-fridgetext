@@ -6,7 +6,7 @@ import { join } from "node:path";
 // at 3am, from somewhere in the back of the shelves, where it has
 // been awake all night watching the leftovers organise.
 const LINE =
-  "Night shift update: the sushi from Monday has started a government in the back of me and it is taxing the yogurts now, just so you know.";
+  "3am report: Monday's leftover sushi has formed a government in the back and started taxing the yogurts.";
 
 if (LINE.length < 1 || LINE.length > 140) {
   throw new Error(`entry must be 1-140 characters, got ${LINE.length}`);
